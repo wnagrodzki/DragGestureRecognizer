@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EA02D0D1D78A64800FEB930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA02D0C1D78A64800FEB930 /* AppDelegate.swift */; };
+		2EA02D0F1D78A64800FEB930 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA02D0E1D78A64800FEB930 /* ViewController.swift */; };
+		2EA02D121D78A64800FEB930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA02D101D78A64800FEB930 /* Main.storyboard */; };
+		2EA02D141D78A64800FEB930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA02D131D78A64800FEB930 /* Assets.xcassets */; };
+		2EA02D171D78A64800FEB930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA02D151D78A64800FEB930 /* LaunchScreen.storyboard */; };
+		2EA02D221D78A64800FEB930 /* DragGestureRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA02D211D78A64800FEB930 /* DragGestureRecognizerTests.swift */; };
+		2EA02D2D1D78A64800FEB930 /* DragGestureRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA02D2C1D78A64800FEB930 /* DragGestureRecognizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EA02D1E1D78A64800FEB930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EA02D011D78A64800FEB930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EA02D081D78A64800FEB930;
+			remoteInfo = DragGestureRecognizer;
+		};
+		2EA02D291D78A64800FEB930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EA02D011D78A64800FEB930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EA02D081D78A64800FEB930;
+			remoteInfo = DragGestureRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EA02D091D78A64800FEB930 /* DragGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA02D0C1D78A64800FEB930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EA02D0E1D78A64800FEB930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EA02D111D78A64800FEB930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EA02D131D78A64800FEB930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EA02D161D78A64800FEB930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EA02D181D78A64800FEB930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA02D1D1D78A64800FEB930 /* DragGestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragGestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA02D211D78A64800FEB930 /* DragGestureRecognizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureRecognizerTests.swift; sourceTree = "<group>"; };
+		2EA02D231D78A64800FEB930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA02D281D78A64800FEB930 /* DragGestureRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragGestureRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA02D2C1D78A64800FEB930 /* DragGestureRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureRecognizerUITests.swift; sourceTree = "<group>"; };
+		2EA02D2E1D78A64800FEB930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EA02D061D78A64800FEB930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA02D1A1D78A64800FEB930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA02D251D78A64800FEB930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EA02D001D78A64800FEB930 = {
+			isa = PBXGroup;
+			children = (
+				2EA02D0B1D78A64800FEB930 /* DragGestureRecognizer */,
+				2EA02D201D78A64800FEB930 /* DragGestureRecognizerTests */,
+				2EA02D2B1D78A64800FEB930 /* DragGestureRecognizerUITests */,
+				2EA02D0A1D78A64800FEB930 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EA02D0A1D78A64800FEB930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EA02D091D78A64800FEB930 /* DragGestureRecognizer.app */,
+				2EA02D1D1D78A64800FEB930 /* DragGestureRecognizerTests.xctest */,
+				2EA02D281D78A64800FEB930 /* DragGestureRecognizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EA02D0B1D78A64800FEB930 /* DragGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				2EA02D0C1D78A64800FEB930 /* AppDelegate.swift */,
+				2EA02D0E1D78A64800FEB930 /* ViewController.swift */,
+				2EA02D101D78A64800FEB930 /* Main.storyboard */,
+				2EA02D131D78A64800FEB930 /* Assets.xcassets */,
+				2EA02D151D78A64800FEB930 /* LaunchScreen.storyboard */,
+				2EA02D181D78A64800FEB930 /* Info.plist */,
+			);
+			path = DragGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		2EA02D201D78A64800FEB930 /* DragGestureRecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EA02D211D78A64800FEB930 /* DragGestureRecognizerTests.swift */,
+				2EA02D231D78A64800FEB930 /* Info.plist */,
+			);
+			path = DragGestureRecognizerTests;
+			sourceTree = "<group>";
+		};
+		2EA02D2B1D78A64800FEB930 /* DragGestureRecognizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EA02D2C1D78A64800FEB930 /* DragGestureRecognizerUITests.swift */,
+				2EA02D2E1D78A64800FEB930 /* Info.plist */,
+			);
+			path = DragGestureRecognizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EA02D081D78A64800FEB930 /* DragGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA02D311D78A64800FEB930 /* Build configuration list for PBXNativeTarget "DragGestureRecognizer" */;
+			buildPhases = (
+				2EA02D051D78A64800FEB930 /* Sources */,
+				2EA02D061D78A64800FEB930 /* Frameworks */,
+				2EA02D071D78A64800FEB930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragGestureRecognizer;
+			productName = DragGestureRecognizer;
+			productReference = 2EA02D091D78A64800FEB930 /* DragGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EA02D1C1D78A64800FEB930 /* DragGestureRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA02D341D78A64800FEB930 /* Build configuration list for PBXNativeTarget "DragGestureRecognizerTests" */;
+			buildPhases = (
+				2EA02D191D78A64800FEB930 /* Sources */,
+				2EA02D1A1D78A64800FEB930 /* Frameworks */,
+				2EA02D1B1D78A64800FEB930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EA02D1F1D78A64800FEB930 /* PBXTargetDependency */,
+			);
+			name = DragGestureRecognizerTests;
+			productName = DragGestureRecognizerTests;
+			productReference = 2EA02D1D1D78A64800FEB930 /* DragGestureRecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EA02D271D78A64800FEB930 /* DragGestureRecognizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA02D371D78A64800FEB930 /* Build configuration list for PBXNativeTarget "DragGestureRecognizerUITests" */;
+			buildPhases = (
+				2EA02D241D78A64800FEB930 /* Sources */,
+				2EA02D251D78A64800FEB930 /* Frameworks */,
+				2EA02D261D78A64800FEB930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EA02D2A1D78A64800FEB930 /* PBXTargetDependency */,
+			);
+			name = DragGestureRecognizerUITests;
+			productName = DragGestureRecognizerUITests;
+			productReference = 2EA02D281D78A64800FEB930 /* DragGestureRecognizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EA02D011D78A64800FEB930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Wojciech Nagrodzki";
+				TargetAttributes = {
+					2EA02D081D78A64800FEB930 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					2EA02D1C1D78A64800FEB930 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EA02D081D78A64800FEB930;
+					};
+					2EA02D271D78A64800FEB930 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EA02D081D78A64800FEB930;
+					};
+				};
+			};
+			buildConfigurationList = 2EA02D041D78A64800FEB930 /* Build configuration list for PBXProject "DragGestureRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EA02D001D78A64800FEB930;
+			productRefGroup = 2EA02D0A1D78A64800FEB930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EA02D081D78A64800FEB930 /* DragGestureRecognizer */,
+				2EA02D1C1D78A64800FEB930 /* DragGestureRecognizerTests */,
+				2EA02D271D78A64800FEB930 /* DragGestureRecognizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EA02D071D78A64800FEB930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA02D171D78A64800FEB930 /* LaunchScreen.storyboard in Resources */,
+				2EA02D141D78A64800FEB930 /* Assets.xcassets in Resources */,
+				2EA02D121D78A64800FEB930 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA02D1B1D78A64800FEB930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA02D261D78A64800FEB930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EA02D051D78A64800FEB930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA02D0F1D78A64800FEB930 /* ViewController.swift in Sources */,
+				2EA02D0D1D78A64800FEB930 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA02D191D78A64800FEB930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA02D221D78A64800FEB930 /* DragGestureRecognizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA02D241D78A64800FEB930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA02D2D1D78A64800FEB930 /* DragGestureRecognizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EA02D1F1D78A64800FEB930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EA02D081D78A64800FEB930 /* DragGestureRecognizer */;
+			targetProxy = 2EA02D1E1D78A64800FEB930 /* PBXContainerItemProxy */;
+		};
+		2EA02D2A1D78A64800FEB930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EA02D081D78A64800FEB930 /* DragGestureRecognizer */;
+			targetProxy = 2EA02D291D78A64800FEB930 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EA02D101D78A64800FEB930 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EA02D111D78A64800FEB930 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EA02D151D78A64800FEB930 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EA02D161D78A64800FEB930 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EA02D2F1D78A64800FEB930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EA02D301D78A64800FEB930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EA02D321D78A64800FEB930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DragGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wnagrodzki.DragGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2EA02D331D78A64800FEB930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DragGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wnagrodzki.DragGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2EA02D351D78A64800FEB930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DragGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wnagrodzki.DragGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragGestureRecognizer.app/DragGestureRecognizer";
+			};
+			name = Debug;
+		};
+		2EA02D361D78A64800FEB930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DragGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wnagrodzki.DragGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragGestureRecognizer.app/DragGestureRecognizer";
+			};
+			name = Release;
+		};
+		2EA02D381D78A64800FEB930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DragGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wnagrodzki.DragGestureRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DragGestureRecognizer;
+			};
+			name = Debug;
+		};
+		2EA02D391D78A64800FEB930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DragGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wnagrodzki.DragGestureRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DragGestureRecognizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EA02D041D78A64800FEB930 /* Build configuration list for PBXProject "DragGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA02D2F1D78A64800FEB930 /* Debug */,
+				2EA02D301D78A64800FEB930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EA02D311D78A64800FEB930 /* Build configuration list for PBXNativeTarget "DragGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA02D321D78A64800FEB930 /* Debug */,
+				2EA02D331D78A64800FEB930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EA02D341D78A64800FEB930 /* Build configuration list for PBXNativeTarget "DragGestureRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA02D351D78A64800FEB930 /* Debug */,
+				2EA02D361D78A64800FEB930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EA02D371D78A64800FEB930 /* Build configuration list for PBXNativeTarget "DragGestureRecognizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA02D381D78A64800FEB930 /* Debug */,
+				2EA02D391D78A64800FEB930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EA02D011D78A64800FEB930 /* Project object */;
+}
