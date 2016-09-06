@@ -25,6 +25,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var draggableView: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
