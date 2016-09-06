@@ -29,15 +29,35 @@ class ViewController: UIViewController {
     @IBOutlet weak var draggableView: UIView!
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let dragGestureRecognizer = DragGestureRecognizer(target: self, action: #selector(ViewController.handleGesture(gestureRecognizer:)))
+        draggableView.addGestureRecognizer(dragGestureRecognizer)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @objc private func handleGesture(gestureRecognizer: DragGestureRecognizer) {
+        
+        switch gestureRecognizer.state {
+        
+        case .began:
+            UIView.animate(withDuration: 0.25, animations: {
+                gestureRecognizer.setTranslation(self.draggableView.center, in: self.view)
+                self.draggableView.transform = CGAffineTransform(scaleX: 1.15, y: 1.15)
+                self.draggableView.alpha = 0.5
+            })
+        
+        case .changed:
+            draggableView.center = gestureRecognizer.translation(in: view)
+        
+        case .cancelled, .failed, .ended:
+            UIView.animate(withDuration: 0.25, animations: {
+                self.draggableView.transform = CGAffineTransform.identity
+                self.draggableView.alpha = 1
+            })
+        
+        case .possible:
+            break
+        }
     }
-
-
 }
 
