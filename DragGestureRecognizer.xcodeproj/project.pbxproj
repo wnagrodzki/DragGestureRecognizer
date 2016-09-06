@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0800EE1D78B2F2004371A1 /* DragGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0800ED1D78B2F2004371A1 /* DragGestureRecognizer.swift */; };
 		2EA02D0D1D78A64800FEB930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA02D0C1D78A64800FEB930 /* AppDelegate.swift */; };
 		2EA02D0F1D78A64800FEB930 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA02D0E1D78A64800FEB930 /* ViewController.swift */; };
 		2EA02D121D78A64800FEB930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA02D101D78A64800FEB930 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E0800ED1D78B2F2004371A1 /* DragGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragGestureRecognizer.swift; sourceTree = "<group>"; };
 		2EA02D091D78A64800FEB930 /* DragGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA02D0C1D78A64800FEB930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EA02D0E1D78A64800FEB930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				2EA02D131D78A64800FEB930 /* Assets.xcassets */,
 				2EA02D151D78A64800FEB930 /* LaunchScreen.storyboard */,
 				2EA02D181D78A64800FEB930 /* Info.plist */,
+				2E0800ED1D78B2F2004371A1 /* DragGestureRecognizer.swift */,
 			);
 			path = DragGestureRecognizer;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				2EA02D0F1D78A64800FEB930 /* ViewController.swift in Sources */,
 				2EA02D0D1D78A64800FEB930 /* AppDelegate.swift in Sources */,
+				2E0800EE1D78B2F2004371A1 /* DragGestureRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				2EA02D331D78A64800FEB930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EA02D341D78A64800FEB930 /* Build configuration list for PBXNativeTarget "DragGestureRecognizerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				2EA02D361D78A64800FEB930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EA02D371D78A64800FEB930 /* Build configuration list for PBXNativeTarget "DragGestureRecognizerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				2EA02D391D78A64800FEB930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
