@@ -11,6 +11,9 @@ import UIKit.UIGestureRecognizerSubclass
 
 /// `DragGestureRecognizer` is a subclass of `UILongPressGestureRecognizer` that allows for tracking translation similarly to `UIPanGestureRecognizer`.
 class DragGestureRecognizer: UILongPressGestureRecognizer {
+    
+    private var initialTouchLocationInScreenFixedCoordinateSpace: CGPoint?
+    private var initialTouchLocationsInViews = [UIView: CGPoint]()
 
     /// The total translation of the drag gesture in the coordinate system of the specified view.
     /// - parameters:
@@ -20,11 +23,19 @@ class DragGestureRecognizer: UILongPressGestureRecognizer {
         // not attached to a view or outside window
         guard let window = self.view?.window else { return CGPoint() }
         // gesture not in progress
-        guard let initialTouchLocationInWindow = initialTouchLocationInWindow else { return CGPoint() }
+        guard let initialTouchLocationInScreenFixedCoordinateSpace = initialTouchLocationInScreenFixedCoordinateSpace else { return CGPoint() }
         
-        let inView = view ?? window
-        let initialLocation = initialTouchLocationsInViews[inView] ?? window.convert(initialTouchLocationInWindow, to: inView)
-        let currentLocation = location(in: inView)
+        let initialLocation: CGPoint
+        let currentLocation: CGPoint
+        
+        if let view = view {
+            initialLocation = initialTouchLocationsInViews[view] ?? window.screen.fixedCoordinateSpace.convert(initialTouchLocationInScreenFixedCoordinateSpace, to: view)
+            currentLocation = location(in: view)
+        }
+        else {
+            initialLocation = initialTouchLocationInScreenFixedCoordinateSpace
+            currentLocation = location(in: nil)
+        }
         
         return CGPoint(x: currentLocation.x - initialLocation.x, y: currentLocation.y - initialLocation.y)
     }
@@ -38,7 +49,7 @@ class DragGestureRecognizer: UILongPressGestureRecognizer {
         // not attached to a view or outside window
         guard let window = self.view?.window else { return }
         // gesture not in progress
-        guard let _ = initialTouchLocationInWindow else { return }
+        guard let _ = initialTouchLocationInScreenFixedCoordinateSpace else { return }
         
         let inView = view ?? window
         let currentLocation = location(in: inView)
@@ -53,10 +64,10 @@ class DragGestureRecognizer: UILongPressGestureRecognizer {
             switch state {
                 
             case .began:
-                initialTouchLocationInWindow = location(in: nil)
+                initialTouchLocationInScreenFixedCoordinateSpace = location(in: nil)
             
             case .ended, .cancelled, .failed:
-                initialTouchLocationInWindow = nil
+                initialTouchLocationInScreenFixedCoordinateSpace = nil
                 initialTouchLocationsInViews = [:]
             
             case .possible, .changed:
@@ -64,7 +75,4 @@ class DragGestureRecognizer: UILongPressGestureRecognizer {
             }
         }
     }
-    
-    private var initialTouchLocationInWindow: CGPoint?
-    private var initialTouchLocationsInViews = [UIView: CGPoint]()
 }
