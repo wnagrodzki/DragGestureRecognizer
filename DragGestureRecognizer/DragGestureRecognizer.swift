@@ -46,7 +46,7 @@ class DragGestureRecognizer: UILongPressGestureRecognizer {
         initialTouchLocationsInViews[inView] = initialLocation
     }
     
-    override var state: UIGestureRecognizerState {
+    override var state: UIGestureRecognizer.State {
         
         didSet {
             
